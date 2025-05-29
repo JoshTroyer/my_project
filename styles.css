@@ -12,15 +12,25 @@ body {
   color: #333;
 }
 
+.logo {
+  font-size: 2.8rem;
+}
+
 ul {
 	padding: 0px;
 	margin: 0px;
 	padding-left: 25px;
+	font-justify: left;
 }
 
 li {
 	padding: 0px;
 	margin: 0xp;
+}
+
+img {
+    margin-top: 10px;
+    box-shadow: 5px 5px 2px lightgrey;
 }
 
 .container {
@@ -63,13 +73,11 @@ li {
 /* Header */
 header {
   background: #687636;
-  color: white;
+  color: #f4e4bc;
   padding: 1rem 0;
+  box-shadow: none;
 }
 
-.logo {
-  font-size: 1.8rem;
-}
 
 nav {
   float: right;
